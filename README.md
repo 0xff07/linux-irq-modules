@@ -62,10 +62,10 @@ Note that `bpftrace` may be unavailable on some platforms.
 
 You'll have to apply devicetree overlay in `00-interrupt-dts` before installing any module;  otherwise the modules won't `probe()`. To do this, 
 
-1. Go to `00-interrupt-dt` directory and `make`:
+1. Go to `A0-interrupt-dt` directory and `make`:
 
 	```
-	$ cd 00-interrupt-dt
+	$ cd A0-interrupt-dt
 	$ make
 	```
 
