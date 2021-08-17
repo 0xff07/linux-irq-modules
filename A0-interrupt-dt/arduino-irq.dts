@@ -1,0 +1,15 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "brcm,bcm2835";
+};
+
+&{/} {
+	arduino: arduino {       
+		compatible = "arduino,uno-irq";
+		interrupt-parent = <&gpio>; 
+		interrupts = <17 1>;
+		status = "ok";
+	}; 
+};
